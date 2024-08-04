@@ -1,0 +1,124 @@
+.ticket {
+  width: 90%;
+  max-width: 350px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 32px;
+}
+
+.header h2 {
+  font-size: 25px;
+  margin: 0;
+  text-transform: uppercase;
+  color: #1e1e2f;
+}
+
+.orgDetails {
+  text-align: center;
+}
+
+.orgDetails p {
+  margin: 5px 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: #1e1e2f;
+  margin-bottom: 20px;
+}
+
+.details {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.service {
+  font-size: 15px;
+  color: #1e1e2f;
+  font-weight: lighter;
+  margin: 5px 0;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.service span {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.queueNumber {
+  font-size: 15px;
+  color: #1e1e2f;
+  font-weight: lighter;
+  margin: 5px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.queueNumber span {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.stamp {
+  position: absolute;
+  top: 130px;
+  right: 1px;
+  width: 180px;
+  z-index: 1;
+}
+
+.date {
+  font-size: 14px;
+  color: #6e7075;
+  margin-top: 10px;
+}
+
+.queue {
+  font-size: 11px;
+  display: block;
+  margin-top: 30px;
+  text-align: left;
+}
+
+.queue span {
+  font-weight: bold;
+  color: #1e1e2f;
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+}
+
+@media print {
+  .styles.icon {
+    display: block;
+    margin: 20px auto;
+    font-size: 24px;
+    margin-right: 100px;
+    color: #1e1e2f;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    display: none;
+  }
+}

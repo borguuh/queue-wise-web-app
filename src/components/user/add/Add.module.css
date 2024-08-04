@@ -1,0 +1,84 @@
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+  max-width: 90%;
+}
+
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.toggleContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.toggle {
+  cursor: pointer;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background: #f4f4f4;
+}
+
+.active {
+  background: #1e1e2f;
+  color: #fff;
+  border-color: #1e1e2f;
+}
+
+.formGroup label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.formGroup input,
+.formGroup select {
+  width: 90%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: space-between;
+}
+
+.saveButton,
+.cancelButton {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.saveButton {
+  background: #1e1e2f;
+  color: #fff;
+}
+
+.cancelButton {
+  background: crimson;
+  color: #fff;
+}

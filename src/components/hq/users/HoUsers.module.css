@@ -1,0 +1,250 @@
+.container {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.searchCon {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 5px 10px;
+}
+
+.input {
+  border: none;
+  outline: none;
+  padding: 5px;
+  margin-left: 5px;
+  font-size: 16px;
+}
+
+.addButtonWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.addButton {
+  display: flex;
+  align-items: center;
+  background-color: #1e1e2f;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.addButton span {
+  margin-left: 5px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.table th {
+  background-color: #f4f4f4;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.userImageWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #1e1e2f;
+}
+
+.userImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.userInitials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+}
+
+.userName {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: #007bff;
+}
+
+.userDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.date {
+  font-size: 12px;
+  color: gray;
+}
+.loaderCon {
+  text-align: center;
+}
+
+.loader {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  animation: spin 2s linear infinite;
+}
+
+.del {
+  display: flex;
+  align-items: center;
+  background-color: crimson;
+  color: white;
+  border-radius: 5px;
+  width: 80px;
+  padding: 5px 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.delete {
+  background-color: crimson;
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.userDetailsModal {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.userDetailsModal h2 {
+  font-size: 24px;
+  color: #1e1e2f;
+  margin-bottom: 10px;
+}
+
+.userDetailsModal p {
+  font-size: 16px;
+  color: #666;
+  margin: 5px 0;
+}
+
+.userDetailsModal span {
+  font-size: 17px;
+  font-weight: bold;
+  color: #1e1e2f;
+}
+
+.closeButton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: crimson;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.confirmButton,
+.cancelButton {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.confirmButton {
+  background-color: #1e1e2f;
+  color: white;
+}
+
+.cancelButton {
+  background-color: crimson;
+  color: white;
+}
+
+/* .inactiveBranch {
+  opacity: 0.5;
+} */

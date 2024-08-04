@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.chartWrapper {
+  width: 30%;
+  /* background-color: white; */
+  /* padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+.chartWrapper h4 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #1e1e2f;
+}
+
+.loading {
+  font-size: 24px;
+  color: #1e1e2f;
+  text-align: center;
+  margin-top: 20%;
+}

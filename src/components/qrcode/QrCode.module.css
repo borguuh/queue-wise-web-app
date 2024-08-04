@@ -1,0 +1,16 @@
+/* QrCode.module.css */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .qrcode {
+    /* Adjust the size of the QR code */
+    /* width: 20px;
+    height: 20px; */
+    /* Optional: Add a shadow for visual effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  

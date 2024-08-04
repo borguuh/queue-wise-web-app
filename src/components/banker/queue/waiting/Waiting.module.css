@@ -1,0 +1,41 @@
+.customerTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.customerTable thead {
+  background-color: #f2f2f2;
+}
+
+.customerTable th,
+.customerTable td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.customerTable th {
+  background-color: orange;
+  color: #1e1e2f;
+}
+
+.customerTable tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.customerTable tbody tr:hover {
+  background-color: #ddd;
+}
+
+.loader {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  padding: 20px;
+}
